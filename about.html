@@ -29,6 +29,35 @@
     <title>Document</title>
   </head>
   <body>
+    <nav>
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="index.html" title="Homepage">
+            <img
+              src="images/JFlogo.png"
+              class="logo d-block d-md-none"
+              alt="Jackie logo"
+            />
+            <img
+              src="images/JFlogo.png"
+              class="big-logo d-none d-md-block"
+              alt="Jackie logo"
+            />
+          </a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active">
+              <a href="about.html" title="About Jacqueline">About</a>
+            </li>
+            <li><a href="work.html" title="Jacqueline's work">Work</a></li>
+            <li>
+              <a href="contact.html" title="Contact Jacqueline">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
+
     <div class="content-container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,13 +70,61 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/Group 18.png" class="img-fluid" alt="" />
+          <img src="images/Group 18.png" class="img-fluid" alt="Photo of me" />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="contact.html"
+            class="btn btn btn-branding mt-3"
+            title="Contact Jacqueline"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:jackiefalcone44@gmail.com"
+          class="email-link"
+          title="Email Jacqueline"
+          >Jackiefalcone44@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="http://www.instagram.com/"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="http://www.github.com" target="_blank" title="Github Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="http://twitter.com" target="_blank" title="Twitter Profile"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        🐾This project was coded by Jacqueline Falcone, and it is
+        <a
+          href="https://github.com/Jackiefalcone/Portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
